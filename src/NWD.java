@@ -22,9 +22,7 @@ public class NWD {
 
         System.out.println();
 
-        for (int i : arrayList) {
-            System.out.println(i);
-        }
+        arrayList.forEach(System.out::println);
     }
 
     public static int nwd(int x, int y) {
