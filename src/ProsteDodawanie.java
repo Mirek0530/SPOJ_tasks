@@ -32,8 +32,6 @@ public class ProsteDodawanie {
 
         System.out.println();
 
-        for (int i : arrayList) {
-            System.out.println(i);
-        }
+        arrayList.forEach(System.out::println);
     }
 }

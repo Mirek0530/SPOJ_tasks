@@ -22,9 +22,7 @@ public class Przedszkolanka {
 
         System.out.println();
 
-        for(int i : arrayList) {
-            System.out.println(i);
-        }
+        arrayList.forEach(System.out::println);
     }
 
     public static int nww(int x, int y) {

@@ -17,9 +17,7 @@ public class StringMerge {
             list.add(merged);
         }
 
-        for(String s : list) {
-            System.out.println(s);
-        }
+        list.forEach(System.out::println);
 
     }
 
